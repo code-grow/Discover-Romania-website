@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romania Quiz - Discover Romania</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Discover Romania</div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Romania</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="things-to-do.html">Things to Do</a></li>
+                <li><a href="events.html">Events & Festivals</a></li>
+                <li><a href="travel-info.html">Travel Information</a></li>
+                <li><a href="plan-trip.html">Plan Your Trip</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quiz.html" class="active">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Test Your Knowledge of Romania</h1>
+            <p>How well do you know Romania? Take our quiz and find out!</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="quiz-container">
+                <h2 class="section-title">Romania Knowledge Quiz</h2>
+                <p style="text-align: center; margin-bottom: 2rem;">Answer all 10 questions and see how much you know about Romania's history, culture, and geography!</p>
+                
+                <form id="quizForm">
+                    <div class="quiz-question">
+                        <h3>1. What is the capital city of Romania?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q1" value="budapest" required>
+                                Budapest
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="bucharest">
+                                Bucharest
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="belgrade">
+                                Belgrade
+                            </label>
+                            <label>
+                                <input type="radio" name="q1" value="bratislava">
+                                Bratislava
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question">
+                        <h3>2. Which mountain range runs through Romania?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q2" value="alps" required>
+                                The Alps
+                            </label>
+                            <label>
+                                <input type="radio" name="q2" value="pyrenees">
+                                The Pyrenees
+                            </label>
+                            <label>
+                                <input type="radio" name="q2" value="carpathians">
+                                The Carpathians
+                            </label>
+                            <label>
+                                <input type="radio" name="q2" value="urals">
+                                The Urals
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question">
+                        <h3>3. Which castle is commonly associated with the Dracula legend?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q3" value="peles" required>
+                                Peleș Castle
+                            </label>
+                            <label>
+                                <input type="radio" name="q3" value="bran">
+                                Bran Castle
+                            </label>
+                            <label>
+                                <input type="radio" name="q3" value="corvin">
+                                Corvin Castle
+                            </label>
+                            <label>
+                                <input type="radio" name="q3" value="cantacuzino">
+                                Cantacuzino Castle
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question">
+                        <h3>4. What major river forms part of Romania's southern border and flows into the Black Sea?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q4" value="volga" required>
+                                Volga
+                            </label>
+                            <label>
+                                <input type="radio" name="q4" value="danube">
+                                Danube
+                            </label>
+                            <label>
+                                <input type="radio" name="q4" value="dnieper">
+                                Dnieper
+                            </label>
+                            <label>
+                                <input type="radio" name="q4" value="rhine">
+                                Rhine
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question">
+                        <h3>5. What is the currency of Romania?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q5" value="euro" required>
+                                Euro
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="forint">
+                                Forint
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="leu">
+                                Leu
+                            </label>
+                            <label>
+                                <input type="radio" name="q5" value="zloty">
+                                Zloty
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question">
+                        <h3>6. Romanian is a Romance language most closely related to which language family?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q6" value="slavic" required>
+                                Slavic (like Russian or Polish)
+                            </label>
+                            <label>
+                                <input type="radio" name="q6" value="germanic">
+                                Germanic (like German or English)
+                            </label>
+                            <label>
+                                <input type="radio" name="q6" value="romanian">
+                                Latin (like Italian or Spanish)
+                            </label>
+                            <label>
+                                <input type="radio" name="q6" value="greek">
+                                Greek
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question">
+                        <h3>7. What is the approximate population of Romania?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q7" value="5million" required>
+                                5 million
+                            </label>
+                            <label>
+                                <input type="radio" name="q7" value="10million">
+                                10 million
+                            </label>
+                            <label>
+                                <input type="radio" name="q7" value="19million">
+                                19 million
+                            </label>
+                            <label>
+                                <input type="radio" name="q7" value="30million">
+                                30 million
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question">
+                        <h3>8. Which sea borders Romania to the east?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q8" value="mediterranean" required>
+                                Mediterranean Sea
+                            </label>
+                            <label>
+                                <input type="radio" name="q8" value="adriatic">
+                                Adriatic Sea
+                            </label>
+                            <label>
+                                <input type="radio" name="q8" value="blacksea">
+                                Black Sea
+                            </label>
+                            <label>
+                                <input type="radio" name="q8" value="baltic">
+                                Baltic Sea
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question">
+                        <h3>9. Who was the famous 15th-century Wallachian prince who inspired the Dracula legend?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q9" value="stephengreat" required>
+                                Stephen the Great
+                            </label>
+                            <label>
+                                <input type="radio" name="q9" value="vladtepes">
+                                Vlad the Impaler (Vlad Țepeș)
+                            </label>
+                            <label>
+                                <input type="radio" name="q9" value="michaelbrave">
+                                Michael the Brave
+                            </label>
+                            <label>
+                                <input type="radio" name="q9" value="carolI">
+                                Carol I
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="quiz-question">
+                        <h3>10. What is the traditional Romanian dish made of cabbage rolls filled with meat and rice?</h3>
+                        <div class="quiz-options">
+                            <label>
+                                <input type="radio" name="q10" value="goulash" required>
+                                Goulash
+                            </label>
+                            <label>
+                                <input type="radio" name="q10" value="sarmale">
+                                Sarmale
+                            </label>
+                            <label>
+                                <input type="radio" name="q10" value="pierogi">
+                                Pierogi
+                            </label>
+                            <label>
+                                <input type="radio" name="q10" value="moussaka">
+                                Moussaka
+                            </label>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <button type="submit" class="btn-primary">Submit Quiz</button>
+                    </div>
+                </form>
+
+                <div id="quizResults" class="quiz-results" style="display: none;">
+                    <h2>Your Results</h2>
+                    <p style="font-size: 2rem; margin: 1rem 0;">Score: <span id="quizScore">0/10</span></p>
+                    <p id="quizMessage" style="font-size: 1.2rem; margin: 1rem 0;"></p>
+                    <button onclick="location.reload()" class="btn-secondary">Try Again</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Learn More About Romania</h2>
+            <div class="content-grid">
+                <div class="content-text">
+                    <h3>Did You Know?</h3>
+                    <p>Romania is full of fascinating facts and surprises! Whether you scored perfectly on our quiz or learned something new, there's always more to discover about this amazing country. Romania is home to the world's heaviest building (Palace of Parliament), Europe's best-preserved Delta (Danube Delta), and the birthplace of many inventions including the fountain pen and insulin.</p>
+                    
+                    <p>The country has produced numerous Nobel laureates, Olympic champions, and cultural icons. From Constantin Brâncuși's revolutionary sculptures to Mircea Eliade's influential writings on mythology and religion, Romanian contributions to world culture are significant. The Romanian language, while surrounded by Slavic languages, maintained its Latin roots, making it a linguistic island in Eastern Europe.</p>
+                    
+                    <p>Romania's biodiversity is exceptional - it contains 5% of the EU's territory but 35% of its brown bears, 30% of its wolves, and 20% of its lynx. The Carpathian Mountains are sometimes called the "Green Pearl of Europe" due to their extensive virgin forests, which cover about 65% of Europe's remaining primeval forests.</p>
+                </div>
+                <div>
+                    <img src="images/Romania-Castle.jpg" alt="Romanian castle" class="content-image">
+                </div>
+            </div>
+            
+            <div class="content-grid" style="margin-top: 3rem;">
+                <div>
+                    <img src="images/fortified-churches-in-transylvania-2.jpg" alt="Danube Delta" class="content-image">
+                </div>
+                <div class="content-text">
+                    <h3>Romania's UNESCO Heritage</h3>
+                    <p>Romania boasts 8 UNESCO World Heritage Sites, including the Danube Delta, the historic center of Sighișoara, the wooden churches of Maramureș, the fortified churches of Transylvania, the painted monasteries of Bucovina, the Dacian fortresses of the Orăștie Mountains, and more. Each site represents a unique aspect of Romanian heritage and human achievement.</p>
+                    
+                    <p>The painted monasteries of Bucovina are unique in the world - nowhere else will you find such elaborate exterior frescoes that have survived for over 500 years. The "Voroneț blue" used in these paintings is so distinctive that art historians compare it to the famous "Titian red" or "Veronese green" of the Italian Renaissance.</p>
+                    
+                    <p>The fortified churches of Transylvania tell the story of the Saxon settlers who came to Romania in the 12th century. These farmer-warriors built over 300 fortified churches, of which about 150 still survive, seven being recognized by UNESCO. They represent a unique architectural solution to the challenges of medieval life in a frontier region.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Want to Learn More?</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h3>Romanian History</h3>
+                    <p>From the ancient Dacians and Romans to modern Romania, the country's history spans over 2,000 years. Key periods include the medieval principalities, the struggle against Ottoman expansion, the creation of modern Romania in 1859, the monarchy period, two World Wars, the communist era, and the democratic transformation after 1989.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Geography & Nature</h3>
+                    <p>Romania's diverse geography includes the Carpathian Mountains (covering 31% of the territory), the Danube Delta (Europe's best-preserved delta), extensive plains perfect for agriculture, and 245 km of Black Sea coastline. The country is one of Europe's most biodiverse, with large carnivore populations and extensive virgin forests.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Culture & Traditions</h3>
+                    <p>Romanian culture blends Latin heritage with Balkan, Slavic, and other influences. Traditional crafts like pottery, weaving, and wood carving remain alive. Folk music and dance vary by region, while Romanian cuisine reflects the country's position at the crossroads of Central, Eastern, and Southeastern Europe.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Language & People</h3>
+                    <p>Romanian is a Romance language, the only one in Eastern Europe, spoken by about 24 million people worldwide. The country is home to various ethnic minorities including Hungarians, Roma, Germans, and others, each contributing to Romania's cultural richness. Romanian hospitality is legendary, with guests traditionally welcomed with bread and salt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 10px;">
+                <h2 style="color: white; margin-bottom: 1rem;">Challenge Your Friends!</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">Think you know Romania well? Share this quiz with your friends and see who knows the most about this fascinating country!</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <button class="btn-primary" style="background: white; color: #667eea;">Share on Facebook</button>
+                    <button class="btn-primary" style="background: white; color: #667eea;">Share on Twitter</button>
+                    <button class="btn-primary" style="background: white; color: #667eea;">Copy Link</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Discover Romania</h3>
+                    <p>Your gateway to exploring the beauty, history, and culture of Romania. Plan your perfect Romanian adventure with us.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="destinations.html">Top Destinations</a></li>
+                        <li><a href="things-to-do.html">Activities</a></li>
+                        <li><a href="travel-info.html">Travel Info</a></li>
+                        <li><a href="blog.html">Travel Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Travel Resources</h3>
+                    <ul>
+                        <li><a href="plan-trip.html">Trip Planner</a></li>
+                        <li><a href="events.html">Events Calendar</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p>Follow us for travel inspiration and updates:</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Discover Romania. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('quizForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            let score = 0;
+            const totalQuestions = 10;
+            
+            const correctAnswers = {
+                q1: 'bucharest',
+                q2: 'carpathians',
+                q3: 'bran',
+                q4: 'danube',
+                q5: 'leu',
+                q6: 'romanian',
+                q7: '19million',
+                q8: 'blacksea',
+                q9: 'vladtepes',
+                q10: 'sarmale'
+            };
+            
+            Object.keys(correctAnswers).forEach(question => {
+                const selectedAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                if (selectedAnswer && selectedAnswer.value === correctAnswers[question]) {
+                    score++;
+                }
+            });
+            
+            const resultsDiv = document.getElementById('quizResults');
+            const scoreSpan = document.getElementById('quizScore');
+            const messageP = document.getElementById('quizMessage');
+            
+            scoreSpan.textContent = `${score}/${totalQuestions}`;
+            
+            let message = '';
+            if (score === totalQuestions) {
+                message = 'Perfect! You are a Romania expert! You really know your stuff!';
+            } else if (score >= 8) {
+                message = 'Excellent! You have great knowledge about Romania!';
+            } else if (score >= 6) {
+                message = 'Good job! You know quite a bit about Romania!';
+            } else if (score >= 4) {
+                message = 'Not bad! Keep learning about this fascinating country!';
+            } else {
+                message = 'Time to explore more about Romania! There\'s so much to discover!';
+            }
+            messageP.textContent = message;
+            
+            resultsDiv.style.display = 'block';
+            this.style.display = 'none';
+            
+            resultsDiv.scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

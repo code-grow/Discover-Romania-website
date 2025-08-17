@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip - Discover Romania</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Discover Romania</div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Romania</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="things-to-do.html">Things to Do</a></li>
+                <li><a href="events.html">Events & Festivals</a></li>
+                <li><a href="travel-info.html">Travel Information</a></li>
+                <li><a href="plan-trip.html" class="active">Plan Your Trip</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Plan Your Romanian Adventure</h1>
+            <p>Detailed itineraries and planning tools for your perfect trip</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Custom Trip Planner</h2>
+            <div class="contact-form" style="max-width: 800px; margin: 0 auto;">
+                <form id="tripPlanner">
+                    <div class="form-group">
+                        <label for="duration">Trip Duration *</label>
+                        <select id="duration" name="duration" required>
+                            <option value="">Select duration</option>
+                            <option value="3days">3 Days - City Break</option>
+                            <option value="7days">1 Week - Classic Tour</option>
+                            <option value="10days">10 Days - Extended Journey</option>
+                            <option value="14days">2 Weeks - Complete Experience</option>
+                            <option value="21days">3 Weeks - In-Depth Exploration</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="travelers">Number of Travelers</label>
+                        <input type="number" id="travelers" name="travelers" min="1" max="20" value="2">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="budget">Budget per Person</label>
+                        <select id="budget" name="budget">
+                            <option value="budget">Budget (€30-50/day)</option>
+                            <option value="midrange" selected>Mid-Range (€80-120/day)</option>
+                            <option value="luxury">Luxury (€250+/day)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Interests (check all that apply)</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="interests" value="history" checked> Historical Sites</label>
+                            <label><input type="checkbox" name="interests" value="nature" checked> Nature & Mountains</label>
+                            <label><input type="checkbox" name="interests" value="culture"> Cultural Experiences</label>
+                            <label><input type="checkbox" name="interests" value="adventure"> Adventure Activities</label>
+                            <label><input type="checkbox" name="interests" value="food"> Food & Wine</label>
+                            <label><input type="checkbox" name="interests" value="relaxation"> Spa & Relaxation</label>
+                            <label><input type="checkbox" name="interests" value="photography"> Photography</label>
+                            <label><input type="checkbox" name="interests" value="festivals"> Festivals & Events</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="season">Travel Season</label>
+                        <select id="season" name="season">
+                            <option value="spring">Spring (Apr-May)</option>
+                            <option value="summer" selected>Summer (Jun-Aug)</option>
+                            <option value="autumn">Autumn (Sep-Oct)</option>
+                            <option value="winter">Winter (Nov-Mar)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Travel Style</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="style" value="organized" checked> Organized Tours</label>
+                            <label><input type="radio" name="style" value="independent"> Independent Travel</label>
+                            <label><input type="radio" name="style" value="mixed"> Mix of Both</label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Generate My Itinerary</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">3-Day Bucharest City Break</h2>
+            <div class="content-grid">
+                <div class="content-text">
+                    <h3>Perfect Weekend in the Capital</h3>
+                    <p><strong>Day 1: Historic Center & Communist Legacy</strong><br>
+                    Start your Romanian adventure with breakfast at Caru' cu Bere, a stunning 19th-century beer hall. Explore the Old Town (Lipscani), discovering the ruins of Vlad the Impaler's palace and the tiny Stavropoleos Church with its intricate carvings. Walk along Calea Victoriei, Bucharest's historic avenue, stopping at the Revolution Square where Ceaușescu gave his final speech. Visit the magnificent Romanian Athenaeum, then take a guided tour of the colossal Palace of Parliament (book in advance). End your day with dinner in the trendy Herastrau area, followed by cocktails at one of the rooftop bars overlooking the illuminated city.</p>
+                    
+                    <p><strong>Day 2: Museums & Parks</strong><br>
+                    Begin at the Village Museum, an open-air exhibition of traditional Romanian architecture from all regions. Take a leisurely walk through Herastrau Park, rent a boat on the lake, or visit the nearby Triumphant Arch. After lunch in the park, explore the National Art Museum in the former Royal Palace, housing medieval icons and modern Romanian masters. Alternatively, history enthusiasts should visit the National History Museum. Evening brings a performance at the Romanian Athenaeum or National Theater, followed by dinner in the charming French-influenced Cotroceni neighborhood.</p>
+                    
+                    <p><strong>Day 3: Neighborhoods & Departure</strong><br>
+                    Explore Bucharest's diverse neighborhoods: start in Armenian Quarter with its unique architecture, then discover the antique shops and cafes of Amzei area. Visit Carturesti Carusel, one of Europe's most beautiful bookstores. For your final afternoon, choose between Therme București (Europe's largest wellness center) for relaxation, or a half-day trip to Mogoșoaia Palace, a beautiful Brâncovenesc-style palace just outside the city. Return to the center for last-minute shopping at Unirea Shopping Center or traditional crafts at the Peasant Museum shop.</p>
+                </div>
+                <div>
+                    <img src="images/cheap-city-break-bucharest-romania-64.jpg" alt="Bucharest city view" class="content-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">7-Day Classic Romania Tour</h2>
+            <div class="content-grid">
+                <div class="content-text">
+                    <h3>The Essential Romania Experience</h3>
+                    <p><strong>Day 1-2: Bucharest Arrival & Exploration</strong><br>
+                    Arrive in Bucharest and settle into your hotel. Spend your first day exploring the Old Town, Palace of Parliament, and Romanian Athenaeum. Day two takes you through the Village Museum, Revolution Square, and Calea Victoriei. Evening entertainment options include the Opera House, traditional restaurants with folk shows, or vibrant nightlife in Lipscani district. Stay in central Bucharest for easy access to attractions.</p>
+                    
+                    <p><strong>Day 3: Bucharest to Brașov via Peleș Castle</strong><br>
+                    Depart Bucharest early for the mountain resort of Sinaia (2 hours by train or car). Visit the fairytale Peleș Castle, summer residence of Romanian royalty, with its stunning German Renaissance architecture and 160 rooms filled with art treasures. After lunch in Sinaia, continue to Brașov (1 hour), checking into accommodation in the medieval old town. Evening stroll through Council Square, admiring the Black Church and defensive walls. Dine at a traditional Saxon restaurant.</p>
+                    
+                    <p><strong>Day 4: Brașov & Bran Castle</strong><br>
+                    Morning exploration of Brașov: climb Tampa Mountain by cable car for panoramic views, walk the medieval streets including Rope Street (one of Europe's narrowest), visit the Black Church and First Romanian School Museum. After lunch, head to Bran Castle (30 minutes), marketed as Dracula's Castle. Despite tenuous connections to Vlad the Impaler, the castle impressively perches on a rocky outcrop with museum exhibits on Romanian royalty. Return to Brașov for dinner and perhaps catch a performance at the Opera House.</p>
+                </div>
+                <div>
+                    <img src="images//peles-castle-sinaia-romania.jpg" alt="Romanian castle tour" class="content-image">
+                </div>
+            </div>
+            
+            <div class="content-grid" style="margin-top: 3rem;">
+                <div>
+                    <img src="images/Sighisoara.jpg" alt="Sighișoara medieval town" class="content-image">
+                </div>
+                <div class="content-text">
+                    <p><strong>Day 5: Sighișoara Medieval Citadel</strong><br>
+                    Drive or take the train to Sighișoara (2.5 hours), birthplace of Vlad the Impaler and one of Europe's best-preserved medieval towns. This UNESCO World Heritage site captivates with its intact 14th-century walls, Clock Tower, and colorful houses. Climb the Clock Tower for views, visit Vlad's birth house (now a restaurant), and ascend the covered Scholars' Stairs to the Church on the Hill. Lunch in the citadel square, then explore artisan workshops. Overnight in a boutique hotel within the citadel walls for maximum atmosphere.</p>
+                    
+                    <p><strong>Day 6: Sibiu Cultural Capital</strong><br>
+                    Journey to Sibiu (1.5 hours), 2007 European Capital of Culture. This Germanic city charms with its distinctive architecture - houses with "eyes" in their roofs watching the streets below. Explore the three interconnected squares: Large Square with Brukenthal Museum, Small Square with the Bridge of Lies, and Huet Square with the Evangelical Cathedral. Visit the ASTRA Open-Air Museum (4km outside) showcasing traditional Romanian village life across 96 hectares. Evening in the atmospheric old town with dinner at a cellar restaurant.</p>
+                    
+                    <p><strong>Day 7: Return to Bucharest</strong><br>
+                    Morning departure from Sibiu, taking the scenic route back to Bucharest (4 hours by car, 5-6 by train) through the Olt Valley. Stop at Cozia Monastery, a 14th-century masterpiece of Romanian medieval architecture. If time permits, detour to Curtea de Argeș to see the spectacular monastery where Romanian royalty are buried. Arrive in Bucharest for final evening shopping, farewell dinner, and transfer to airport or extend your stay.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">14-Day Complete Romania Journey</h2>
+            <div class="content-grid">
+                <div class="content-text">
+                    <h3>In-Depth Exploration</h3>
+                    <p><strong>Days 1-3: Bucharest & Surroundings</strong><br>
+                    Comprehensive exploration of the capital including all major sites, museums, and neighborhoods. Day trip to Snagov Monastery (Vlad the Impaler's burial place) and Mogoșoaia Palace. Experience Bucharest's nightlife, from traditional taverns to modern clubs. Visit local markets, take a communist-era tour, and enjoy performances at the Athenaeum or Opera.</p>
+                    
+                    <p><strong>Days 4-6: Transylvania Triangle</strong><br>
+                    Base yourself in Brașov to explore the region. Visit Peleș and Bran Castles, medieval Râșnov Fortress, and the fortified churches of Prejmer and Harman. Day trip to Sighișoara, then continue to Sibiu for two nights. Explore Sibiu's old town, ASTRA Museum, and nearby Cisnădie and Cisnădioara fortified churches. Optional hiking in Cindrel Mountains.</p>
+                    
+                    <p><strong>Days 7-9: Maramureș Wooden World</strong><br>
+                    Travel north to Maramureș (via Cluj-Napoca, worth a stop for its vibrant university atmosphere). Three days exploring wooden churches, traditional villages, and the Merry Cemetery. Stay in village guesthouses, participate in farm activities, ride the Mocanița steam train through Vaser Valley. Visit local craftsmen creating wooden gates and traditional clothing.</p>
+                </div>
+                <div>
+                    <img src="images/wooden_church.jpg" alt="Maramureș wooden church" class="content-image">
+                </div>
+            </div>
+            
+            <div class="content-grid" style="margin-top: 3rem;">
+                <div>
+                    <img src="images/Sucevita-Painted-Convent.jpg" alt="Painted monastery Bucovina" class="content-image">
+                </div>
+                <div class="content-text">
+                    <p><strong>Days 10-11: Bucovina Painted Monasteries</strong><br>
+                    Drive through spectacular mountain passes to Bucovina. Visit the painted monasteries: Voroneț (Sistine Chapel of the East), Humor, Moldovița, and Sucevița. Each features unique exterior frescoes that have survived 500 years. Stay in Gura Humorului or Vatra Dornei. Experience egg painting workshops and traditional Bucovina hospitality. Optional visit to Cacica Salt Mine.</p>
+                    
+                    <p><strong>Days 12-13: Danube Delta Wildlife</strong><br>
+                    Travel to Tulcea, gateway to the Danube Delta. Take a boat to your accommodation in the delta (Crisan or Sulina). Two days of boat excursions through channels and lakes, observing pelicans, herons, and countless other birds. Fish for dinner, visit traditional fishing villages, enjoy the sunset over the water. This UNESCO Biosphere Reserve offers complete tranquility and connection with nature.</p>
+                    
+                    <p><strong>Day 14: Black Sea Coast & Return</strong><br>
+                    From the Delta, travel to Constanța to explore ancient Roman ruins and the Art Nouveau casino. If summer, enjoy beach time at Mamaia or Vama Veche. Return to Bucharest (3 hours) for departure or continue exploring. This itinerary covers Romania's essential highlights while allowing time to appreciate each destination's unique character.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Seasonal Itineraries</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="images/spring romance.jpg" alt="Spring in Romania">
+                    <div class="card-content">
+                        <h3>Spring Romance (April-May)</h3>
+                        <p><strong>7 Days of Blooming Beauty:</strong> Start in Bucharest's parks filled with spring flowers. Visit Transylvania when meadows burst with wildflowers - perfect for hiking without summer crowds. Experience Easter traditions in Maramureș or Bucovina, including egg painting and traditional feasts. The painted monasteries are particularly photogenic with apple blossoms. End at the Danube Delta during peak bird migration. Spring offers mild weather, fewer tourists, and nature at its most vibrant.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Romania-in-summer.jpg" alt="Summer in Romania">
+                    <div class="card-content">
+                        <h3>Summer Adventures (June-August)</h3>
+                        <p><strong>10 Days of Mountain and Sea:</strong> Begin with Bucharest and Transylvanian castles, then head to the Carpathians for hiking - Piatra Craiului and Făgăraș Mountains offer spectacular trails. Experience the Via Transilvanica, Romania's new long-distance trail. Drive the Transfăgărășan Highway (open June-October). Include festivals like Sighișoara Medieval Festival or Untold. Finish at the Black Sea coast for beach relaxation. Summer enables access to high mountain areas and combines cultural touring with outdoor activities.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Piatra-Craiului.jpg" alt="Autumn in Romania">
+                    <div class="card-content">
+                        <h3>Autumn Colors (September-October)</h3>
+                        <p><strong>7 Days of Harvest Traditions:</strong> Experience Romania when forests turn golden. Start in Bucharest, then tour Transylvania's castles surrounded by autumn foliage. Participate in wine harvest in Dealu Mare or Moldova regions. Maramureș is spectacular with fall colors and harvest festivals. Include a weekend in a rural guesthouse for mushroom picking and traditional plum brandy making. Autumn offers perfect weather, stunning photography, and authentic rural experiences.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/sighisoara-winter.jpg" alt="Winter in Romania">
+                    <div class="card-content">
+                        <h3>Winter Magic (December-March)</h3>
+                        <p><strong>7 Days of Snow and Traditions:</strong> Experience magical Christmas markets in Sibiu, Brașov, and Bucharest. Ski in Poiana Brașov or Sinaia, visit snow-covered castles (Peleș and Bran are fairytale-like). Experience unique winter traditions: Bear Dance Festival, carol singing, and New Year customs. Stay in mountain chalets with roaring fires. Include a salt mine visit (constant temperature year-round) and spa relaxation. Winter showcases Romania's cozy side with fewer tourists at major attractions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Special Interest Tours</h2>
+            <div class="content-grid">
+                <div class="content-text">
+                    <h3>Dracula & Dark History Tour (5 Days)</h3>
+                    <p>Explore the reality behind the vampire legend. Visit Sighișoara (Vlad's birthplace), Bran Castle (Dracula's Castle), Poenari Fortress (Vlad's real castle - 1,480 steps!), and Snagov Monastery (possible burial site). Include Târgoviște, where Vlad ruled and impaled enemies. Learn about the historical Vlad Țepeș versus Bram Stoker's fiction. Night tours, medieval dinner experiences, and expert guides separate fact from legend. Perfect for history buffs and Gothic romance enthusiasts.</p>
+                    
+                    <h3>UNESCO Heritage Trail (10 Days)</h3>
+                    <p>Discover all eight UNESCO World Heritage Sites: Danube Delta's pristine wetlands, Sighișoara's medieval citadel, Maramureș wooden churches, Transylvanian fortified churches, Bucovina's painted monasteries, Dacian fortresses of Orăștie Mountains, Horezu Monastery, and Roșia Montană mining landscape. This cultural journey spans 2,000 years of history, from ancient Dacians to medieval masterpieces. Includes expert guides, behind-the-scenes access, and meetings with conservation specialists.</p>
+                </div>
+                <div>
+                    <img src="images/castelul-bran-1-2.jpg" alt="Dracula castle tour" class="content-image">
+                </div>
+            </div>
+            
+            <div class="content-grid" style="margin-top: 3rem;">
+                <div>
+                    <img src="images/wine-tasting.jpg" alt="Wine tasting Romania" class="content-image">
+                </div>
+                <div class="content-text">
+                    <h3>Wine & Gastronomy Journey (7 Days)</h3>
+                    <p>Explore Romania's ancient wine tradition across premier regions. Start in Dealu Mare, visiting Rhein Azuga royal cellars and modern wineries like Serve and Budureasca. Continue to Moldova's Cotnari region for sweet wines served at European royal courts. Include cooking classes, traditional market visits, and meals at Romania's best restaurants. Meet winemakers, explore centuries-old cellars, and pair wines with regional specialties. Harvest season (September-October) adds grape-picking experiences.</p>
+                    
+                    <h3>Active Adventure Circuit (10 Days)</h3>
+                    <p>For outdoor enthusiasts: hiking in Piatra Craiului National Park, via ferrata in Bicaz Gorge, mountain biking in Apuseni Mountains, rafting on Jiu River, caving in Bears' Cave, zip-lining in Brașov, and paragliding in Clopotiva. Include wildlife watching for bears and the Transfăgărășan Highway drive. Professional guides, quality equipment, and varied difficulty levels accommodate different fitness levels. Combine with cultural visits to maintain diversity. Best May-September for optimal conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Planning Resources</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h3>When to Visit</h3>
+                    <p><strong>Peak Season (Jun-Aug):</strong> Warm weather, festivals, mountain access, crowded attractions<br>
+                    <strong>Shoulder (Apr-May, Sep-Oct):</strong> Pleasant weather, fewer tourists, autumn colors<br>
+                    <strong>Low Season (Nov-Mar):</strong> Winter sports, Christmas markets, budget prices, some mountain roads closed</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Booking Essentials</h3>
+                    <p>• Book Palace of Parliament tours 2-3 days ahead<br>
+                    • Reserve Transfăgărășan accommodation in summer<br>
+                    • Secure festival tickets months in advance<br>
+                    • Book rental cars early in peak season<br>
+                    • Reserve restaurants for weekend dinners<br>
+                    • Arrange Delta boat trips through accommodation</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Packing Checklist</h3>
+                    <p>• Layered clothing for variable weather<br>
+                    • Comfortable walking shoes<br>
+                    • Rain jacket/umbrella<br>
+                    • Power adapter (European plug)<br>
+                    • Cash for rural areas<br>
+                    • Insect repellent for summer<br>
+                    • Sunscreen and sunglasses<br>
+                    • Camera with extra memory cards</p>
+                </div>
+                <div class="tip-card">
+                    <h3>Download Before You Go</h3>
+                    <p>• Offline maps (Maps.me or Google Maps)<br>
+                    • Google Translate Romanian package<br>
+                    • CFR Călători app for train schedules<br>
+                    • Uber/Bolt for city transport<br>
+                    • XE Currency for conversions<br>
+                    • TripAdvisor for reviews<br>
+                    • Booking.com for last-minute accommodation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Discover Romania</h3>
+                    <p>Your gateway to exploring the beauty, history, and culture of Romania. Plan your perfect Romanian adventure with us.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="destinations.html">Top Destinations</a></li>
+                        <li><a href="things-to-do.html">Activities</a></li>
+                        <li><a href="travel-info.html">Travel Info</a></li>
+                        <li><a href="blog.html">Travel Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Travel Resources</h3>
+                    <ul>
+                        <li><a href="plan-trip.html">Trip Planner</a></li>
+                        <li><a href="events.html">Events Calendar</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p>Follow us for travel inspiration and updates:</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Discover Romania. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

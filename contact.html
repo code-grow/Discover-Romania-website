@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Discover Romania</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Discover Romania</div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Romania</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="things-to-do.html">Things to Do</a></li>
+                <li><a href="events.html">Events & Festivals</a></li>
+                <li><a href="travel-info.html">Travel Information</a></li>
+                <li><a href="plan-trip.html">Plan Your Trip</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for travel assistance and information about Romania</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-text">
+                    <h2>Get in Touch</h2>
+                    <p>Whether you're planning your first trip to Romania or you're a returning visitor, we're here to help make your journey unforgettable. Our team of travel experts is ready to assist you with personalized recommendations, travel tips, and answers to all your questions about exploring Romania.</p>
+                    
+                    <h3>Tourist Information Centers</h3>
+                    <p>Romania has a network of tourist information centers located in major cities and tourist destinations. These centers provide free maps, brochures, and expert local advice. Staff members typically speak English, French, German, and other languages.</p>
+                    
+                    <h3>Emergency Contacts</h3>
+                    <p><strong>Emergency Number:</strong> 112 (police, fire, medical)</p>
+                    <p><strong>Tourist Police:</strong> Available in major tourist areas</p>
+                    <p><strong>Mountain Rescue:</strong> 0-SALVAMONT (0-725826668)</p>
+                    
+                    <h3>Official Tourism Board</h3>
+                    <p>The Romanian National Tourism Office provides comprehensive information about destinations, events, and travel services throughout the country. They offer multilingual support and can help with trip planning, accommodations, and special interest tours.</p>
+                </div>
+                
+                <div>
+                    <img src="images/decebal.jpg" alt="Decebal Statue" class="content-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Send Us a Message</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+40 123 456 789">
+                </div>
+                
+                <div class="form-group">
+                    <label for="travelDate">Planned Travel Date</label>
+                    <input type="date" id="travelDate" name="travelDate">
+                </div>
+                
+                <div class="form-group">
+                    <label for="travelers">Number of Travelers</label>
+                    <input type="number" id="travelers" name="travelers" min="1" max="50" placeholder="2">
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Information</option>
+                        <option value="accommodation">Accommodation Help</option>
+                        <option value="tours">Tour Packages</option>
+                        <option value="transport">Transportation</option>
+                        <option value="visa">Visa & Documentation</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Preferred Contact Method</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="contactMethod" value="email" checked>
+                            Email
+                        </label>
+                        <label>
+                            <input type="radio" name="contactMethod" value="phone">
+                            Phone
+                        </label>
+                        <label>
+                            <input type="radio" name="contactMethod" value="whatsapp">
+                            WhatsApp
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Interests (check all that apply)</label>
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox" name="interests" value="culture">
+                            Cultural Tours
+                        </label>
+                        <label>
+                            <input type="checkbox" name="interests" value="adventure">
+                            Adventure & Hiking
+                        </label>
+                        <label>
+                            <input type="checkbox" name="interests" value="gastronomy">
+                            Food & Wine
+                        </label>
+                        <label>
+                            <input type="checkbox" name="interests" value="history">
+                            Historical Sites
+                        </label>
+                        <label>
+                            <input type="checkbox" name="interests" value="nature">
+                            Nature & Wildlife
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message *</label>
+                    <textarea id="message" name="message" required placeholder="Tell us about your travel plans or ask us any questions about Romania..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="budget">Approximate Budget per Person (EUR)</label>
+                    <input type="range" id="budget" name="budget" min="100" max="5000" value="1000" oninput="document.getElementById('budgetValue').textContent = this.value">
+                    <span>€<span id="budgetValue">1000</span></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="attachment">Attach Document (optional)</label>
+                    <input type="file" id="attachment" name="attachment" accept=".pdf,.doc,.docx,.jpg,.png">
+                </div>
+                
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="newsletter" value="yes">
+                        I would like to receive travel tips and special offers about Romania
+                    </label>
+                </div>
+                
+                <button type="submit" class="btn-primary">Send Message</button>
+                <p style="margin-top: 1rem; color: #666; font-size: 0.9rem;">
+                    * Required fields. Note: This is a demonstration form - the submit button will not send actual data.
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="content-grid">
+                <div>
+                    <img src="images/peles-castle-sinaia-romania.jpg" alt="Romanian castle" class="content-image">
+                </div>
+                <div class="content-text">
+                    <h2>Visit Our Partners</h2>
+                    <p>We work with trusted partners throughout Romania to ensure you have the best possible travel experience. Our network includes:</p>
+                    
+                    <h3>Accommodation Partners</h3>
+                    <p>From luxury hotels in Bucharest to cozy guesthouses in rural villages, we can help you find the perfect place to stay. Many of our partners offer special rates for visitors booking through our recommendations.</p>
+                    
+                    <h3>Tour Operators</h3>
+                    <p>Licensed and experienced tour operators provide guided tours in multiple languages. Whether you're interested in city walks, castle tours, wine tasting, or adventure activities, we can connect you with the right guide.</p>
+                    
+                    <h3>Transportation Services</h3>
+                    <p>Reliable car rental companies, airport transfers, and private drivers are available throughout the country. We can help arrange transportation that fits your budget and travel style.</p>
+                    
+                    <h3>Cultural Experiences</h3>
+                    <p>Connect with local artisans, attend traditional workshops, and participate in authentic Romanian experiences. From pottery making in Horezu to wine tasting in Dealu Mare, we'll help you discover the real Romania.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Connect on Social Media</h2>
+            <div style="text-align: center;">
+                <p style="margin-bottom: 2rem;">Follow us for daily travel inspiration, stunning photos, and the latest updates about Romania</p>
+                <div class="social-links" style="justify-content: center; font-size: 3rem;">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="YouTube">📺</a>
+                    <a href="#" aria-label="Pinterest">📌</a>
+                </div>
+                <p style="margin-top: 2rem; color: #666;">Use #DiscoverRomania to share your travel photos with us!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Discover Romania</h3>
+                    <p>Your gateway to exploring the beauty, history, and culture of Romania. Plan your perfect Romanian adventure with us.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="destinations.html">Top Destinations</a></li>
+                        <li><a href="things-to-do.html">Activities</a></li>
+                        <li><a href="travel-info.html">Travel Info</a></li>
+                        <li><a href="blog.html">Travel Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Travel Resources</h3>
+                    <ul>
+                        <li><a href="plan-trip.html">Trip Planner</a></li>
+                        <li><a href="events.html">Events Calendar</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p>Follow us for travel inspiration and updates:</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Discover Romania. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
